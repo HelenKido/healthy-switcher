@@ -1,0 +1,21 @@
+body {
+    font-family: "HelveticaNeueCyr";
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  .container {
+    max-width: 1110px;
+    width: 100%;
+  }
+
+  .app {
+    position: relative;
+  }
+  
+  .bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
