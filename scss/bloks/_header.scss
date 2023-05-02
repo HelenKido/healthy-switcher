@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+.nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1110px;
+    height: 90px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 80px;
+}
+
+.logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+}
+
+.logo__apple {
+    width: 25px;
+    height: 24px;
+}
+
+.logo__title {
+    width: 173px;
+    height: 11px;
+}
+
+.menu {
+    display: flex;
+    gap: 45px; /* как дать разные отступы между пунктами? */
+}
+
+.menu__item {
+    color: #000;
+}

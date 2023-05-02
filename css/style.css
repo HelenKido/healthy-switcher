@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -20,8 +21,8 @@ a {
 
 body {
   font-family: "HelveticaNeueCyr";
-  font-size: 32px;
-  font-weight: bold;
+  font-size: 16px;
+  font-weight: normal;
 }
 
 @font-face {
@@ -44,4 +45,61 @@ body {
   src: local("HelveticaNeueCyr-Roman"), url("../fonts/HelveticaNeue/HelveticaNeueCyr-Roman.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeue/HelveticaNeueCyr-Roman.woff2") format("woff2"), url("../fonts/HelveticaNeue/HelveticaNeueCyr-Roman.woff") format("woff"), url("../fonts/HelveticaNeue/HelveticaNeueCyr-Roman.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
+}
+* {
+  box-sizing: border-box;
+}
+
+.nav {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1110px;
+  height: 90px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 80px;
+}
+
+.logo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.logo__apple {
+  width: 25px;
+  height: 24px;
+}
+
+.logo__title {
+  width: 173px;
+  height: 11px;
+}
+
+.menu {
+  display: flex;
+  gap: 45px; /* как дать разные отступы между пунктами? */
+}
+
+.menu__item {
+  color: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main__title {
+  font-size: 72px;
+}
+
+.main__text {
+  font-size: 16px;
+}
+
+.main {
+  margin: 0 auto;
+  width: 1110px;
+  height: auto;
 }/*# sourceMappingURL=style.css.map */
