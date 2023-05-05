@@ -23,6 +23,7 @@ body {
   font-family: "HelveticaNeueCyr";
   font-size: 16px;
   font-weight: normal;
+  background-color: #E5E5E5;
 }
 
 @font-face {
@@ -175,6 +176,7 @@ body {
   width: 915px;
   height: 945px;
   text-align: center;
+  margin-bottom: 161px;
 }
 
 .info-card {
@@ -206,4 +208,59 @@ body {
   font-size: 14px;
   color: #fff;
   opacity: 0.6;
+}
+
+.about {
+  margin: 0 auto;
+  max-width: 1110px;
+  width: 100%;
+  height: 736px;
+  background: #303030;
+  position: absolute;
+  top: 840px;
+  border-radius: 43px;
+  text-align: center;
+}
+
+.description__title {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 80%);
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+  margin-top: 105px;
+}
+
+.description__about {
+  position: relative;
+  font-size: 80px;
+  font-weight: bold;
+  font-style: normal;
+  color: #4D4D4D;
+  margin-top: 105px;
+  margin-bottom: 30px;
+}
+
+.description__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  opacity: 0.6;
+  line-height: 30px;
+  margin-bottom: 90px;
+}
+
+.slider {
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 90px;
+}
+
+.slider__icon2 {
+  transform: scale(-1, 1);
 }/*# sourceMappingURL=style.css.map */
