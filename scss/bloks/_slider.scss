@@ -1,0 +1,69 @@
+.slider {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+
+}
+
+.slider__body {
+    width: 734px;
+    overflow: hidden;
+}
+
+.slider__track {
+    display: flex;
+}
+
+.slider__slide {
+    width: 350px;
+    height: 270px;
+    flex-shrink: 0;
+    margin-right: 34px;
+}
+
+.slider__foto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slider__arrow {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #303030;
+    transition: 0.3s ease-in-out;
+    
+    &:hover {
+        border: 2px solid #ccc;
+        background: #303030;
+        
+    }
+    
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        width: 16px;
+        height: 16px;
+        background-image: url('../../images/icon/arrow.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+
+    }
+}
+
+.slider__arrow_next {
+    transform: scale(-1, 1);
+}
+
