@@ -1,37 +1,62 @@
 .advantage {
     display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
 } 
 
 .advantage__card {
     width: 255px;
-    height: 206px;
+    min-height: 206px;
     padding: 24px 24px;
     background-color: #252525;
     transition: 0.3s ease-in-out;
+    color: #fff;
+    border-radius: 6px;
     
     &:hover {
         background-color: #34C759;
-
+        color: #191919;
     }
+
+    &:hover .advantage__line {
+        background-color: #191919;
+        transition: 0.6s ease-in-out;
+    }
+
+    &:hover .advantage__text {
+        color: #191919;
+        opacity: 1;
+    }
+
+    &:hover .advantage__title{
+        color: #191919;
+    }
+
+}
+
+.advantage__line {
+    display: block;
+    background-color: #34C759;
+    margin-bottom: 10px;
+    width: 56px;
+    height: 2px;
+    transition: 0.3s ease-in-out;
+    
 }
 
 .advantage__title {
     font-size: 22px;
     margin-bottom: 15px;
+    color: #fff;
+    transition: 0.3s ease-in-out;
 }
-
-
-.advantage__text {
+  
+  .advantage__text {
     font-size: 13px;
     line-height: 18px;
     text-align: left;
-}
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.3s ease-in-out;
 
-.advantage__line {
-    color: #34C759;
-    margin-bottom: 10px;
-    width: 56px;
-    left: 24px;
-
-}
+  }
