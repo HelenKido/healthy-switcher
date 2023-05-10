@@ -308,6 +308,40 @@ body {
   transform: scale(-1, 1);
 }
 
+.advantage {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantage__card {
+  width: 255px;
+  height: 206px;
+  padding: 24px 24px;
+  background-color: #252525;
+  transition: 0.3s ease-in-out;
+}
+.advantage__card:hover {
+  background-color: #34C759;
+}
+
+.advantage__title {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.advantage__text {
+  font-size: 13px;
+  line-height: 18px;
+  text-align: left;
+}
+
+.advantage__line {
+  color: #34C759;
+  margin-bottom: 10px;
+  width: 56px;
+  left: 24px;
+}
+
 .about {
   min-height: 736px;
   background: #252525;
